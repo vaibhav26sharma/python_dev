@@ -5,7 +5,7 @@ cache: pip
 
  
 before_install: 
-  - pip install winsound
+
   - cd Final_Capstone_Project/com/vaibhav/py
   
 install:
