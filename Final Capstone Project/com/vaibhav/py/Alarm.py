@@ -22,7 +22,7 @@ def start_clock():
 
 def trigger_alarm():
     '''
-    This functions plays the Sound
+    This functions plays the Sound once the timer completes the time
     '''
     winsound.PlaySound('sound.wav', winsound.SND_FILENAME)
     
