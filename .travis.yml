@@ -6,7 +6,7 @@ cache: pip
  # - pip install -r requirements.txt
  
 before_install: 
-  - cd Final_Capstone_Projects/com/vaibhav/py
+  - cd Final_Capstone_Project/com/vaibhav/py
   
 script:
   - python Alarm.py
