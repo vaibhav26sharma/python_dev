@@ -4,8 +4,12 @@ python:
 cache: pip
 # install:
  # - pip install -r requirements.txt
+ 
+before_install: 
+  - cd Final_Capstone_Projects/com/vaibhav/py
+  
 script:
-  - python com.vaibhav.test.tests.py
+  - python Alarm.py
 
 notifications:
   email:
