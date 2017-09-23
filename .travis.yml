@@ -9,7 +9,6 @@ before_install:
   - cd Final_Capstone_Project/com/vaibhav/py
   
 install:
-  - pip install .
   - pip install -r requirements.txt
   
 script:
