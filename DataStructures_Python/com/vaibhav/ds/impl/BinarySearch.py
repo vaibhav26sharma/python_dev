@@ -7,6 +7,16 @@ from __main__ import __name__
 
 '''
 The binary search is used to find an item in an ORDERED list.
+To search for an item, look in the middle of the list and 
+see if the number you want is in the middle,
+ above the middle or below the middle. 
+ If it is in the middle, you have found the item. 
+ If it is higher than the middle value, 
+ then adjust the bottom of the list so that you search in a smaller list 
+ starting one above the middle of the list. 
+ If the number is lower than the middle value, 
+ then adjust the top of the list so that you search in a smaller list
+  which has its highest position one less than the middle position.
 '''
 
 def binarySearch(item, sorted_List):
