@@ -1,5 +1,5 @@
 # My project's README
-This project contains implementation of basic Data structures in Python
+This project contains the implementation of basic Data structures in Python
 
 [![Build Status](https://travis-ci.org/vaibhav6451956/python_dev.svg?branch=master)](https://travis-ci.org/vaibhav6451956/python_dev)
 
